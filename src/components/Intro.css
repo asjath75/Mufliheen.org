@@ -1,0 +1,152 @@
+
+
+.bg {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.about-container {
+  background-image: linear-gradient(to right, #6f00ff, #007aff);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  padding: 2rem 5rem;
+}
+
+.about-container h1 {
+  margin-bottom: 3rem;
+  text-decoration-line: underline;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.about-container p {
+  margin-bottom: 3rem;
+  line-height: 1.5;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.heading-container {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: 20px;
+}
+
+.book-btn{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.book-btn button{
+  background-image: linear-gradient(to right, #6f00ff, #007aff);
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  border-style: hidden;
+  border-radius: 3rem;
+  margin: 1.5rem;
+  color: #fff;
+  transition: font-size 0.3s;
+  cursor: pointer;
+}
+
+.book-btn button:hover{
+  font-size: 19px;
+  box-shadow: 0 0 10px 2px #007aff;
+}
+
+.silde-container{
+  position: relative;
+}
+
+.silde-container .swiper{
+  width: 90%;
+  height: 80%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  
+}
+
+.silde-container .swiper-slide{
+  background-color: #fff;
+  display: flex;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow:hidden;
+  position: relative;
+  box-shadow: 0 0 10px 1px #6f00ff;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.swiper-slide img{
+  height: 170px;
+  width: 120px;
+  border-radius: 1rem;
+}
+
+.swiper-slide p{
+  font-size: 18px;
+  margin: 1rem;
+}
+
+.swiper-slide button{
+  font-size: 20px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #6f00ff, #007aff);
+  color: #fff;
+  border-style: hidden;
+  box-shadow: 0 0 7px 1px #007aff;
+  transition: font-size 0.2s;
+  margin: 2rem 0;
+  cursor: pointer;
+
+}
+
+.swiper-slide button:hover{
+  font-size: 22px;
+}
+.silde-container .swiper-button-prev{
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #6f00ff, #007aff);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+  transition: padding 0.2s;
+}
+
+.silde-container .swiper-button-next{
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #6f00ff, #007aff);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+  transition: padding 0.2s;
+}
+
+.silde-container .swiper-button-next:hover{
+  padding: 2.2rem;
+}
+
+.silde-container .swiper-button-prev:hover{
+  padding: 2.2rem;
+}
+
